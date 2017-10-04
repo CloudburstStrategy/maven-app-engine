@@ -2,6 +2,8 @@
 
 A docker container for building, testing and deploying Jave/Maven/GoogleCloud/Terraform apps
 
+    docker pull cloudburststrategy/maven-app-engine
+
 This container is very useful for building GAE applications using the latest appengine-maven-plugin:
 
 ```XML
