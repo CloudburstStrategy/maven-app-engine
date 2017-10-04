@@ -22,5 +22,15 @@ gcloud auth activate-service-account --key-file .gitlab-ci.keyfile.json
 ```
 
 ---
- 
-This dockerfile is originally published to the docker repository: https://hub.docker.com/r/cloudburststratgey/maven-app-engine/ 
+
+This dockerfile is originally published to the docker repository: https://hub.docker.com/r/cloudburststratgey/maven-app-engine/
+
+
+# Build
+
+    docker build -t cloudburststrategy/maven-app-engine:latest .
+    
+# Push
+
+    docker login (u: cloudburststrategy p: ***)
+    docker push cloudburststrategy/maven-app-engine
